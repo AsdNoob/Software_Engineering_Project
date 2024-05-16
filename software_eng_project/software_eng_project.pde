@@ -15,19 +15,19 @@ void draw () {
 void getTeacherData() {
   String[] value = new String [7];
   int num_teachers = lines.length ;
+  teachers = new Teacher [num_teachers];
   //PrintWriter pw = createWriter("Teacher_Data.txt");
   for (int i = 0; i < lines.length; i++) {
     String cur_line = lines [i];
     int a = 0;
     String remain = cur_line;
-    while (a <= num_teachers) {
+    while (a < 7) {
       int star_index = cur_line.indexOf("*");
       value [a] = remain.substring(0, star_index);
       remain = cur_line.substring(star_index);
       a ++ ;
     }
     //String name = cur_line [0];
-    teachers = new Teacher [num_teachers];
     teachers [i] = new Teacher (value[0], value[1], value[2], value[3], value[4], value[5], value[6]);
   }
 }

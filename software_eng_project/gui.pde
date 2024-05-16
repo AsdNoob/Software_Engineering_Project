@@ -28,13 +28,9 @@ public void button1_click1(GButton source, GEvent event) { //_CODE_:button1:9024
   println("button1 - GButton >> GEvent." + event + " @ " + millis());
 } //_CODE_:button1:902465:
 
-public void imgButton1_click1(GImageButton source, GEvent event) { //_CODE_:imgButton1:728219:
-  println("imgButton1 - GImageButton >> GEvent." + event + " @ " + millis());
-} //_CODE_:imgButton1:728219:
-
 public void textarea1_change1(GTextArea source, GEvent event) { //_CODE_:Add_Teacher:534649:
   println("Add_Teacher - GTextArea >> GEvent." + event + " @ " + millis());
-  addTeacherData(Add_Teacher.getText();
+  addTeacherData(Add_Teacher.getText());
 } //_CODE_:Add_Teacher:534649:
 
 
@@ -59,13 +55,11 @@ public void createGUI(){
   button1 = new GButton(window1, 210, 238, 80, 30);
   button1.setText("Face text");
   button1.addEventHandler(this, "button1_click1");
-  imgButton1 = new GImageButton(window1, 119, 33, 100, 60, new String[] { "", "", "" } );
-  imgButton1.addEventHandler(this, "imgButton1_click1");
   label1 = new GLabel(window1, 125, 100, 88, 60);
   label1.setTextAlign(GAlign.CENTER, GAlign.MIDDLE);
   label1.setText("DEscriptionsdfs dfsdfsdf");
   label1.setOpaque(false);
-  Add_Teacher = new GTextArea(window1, 132, 403, 120, 80, G4P.SCROLLBARS_NONE);
+  Add_Teacher = new GTextArea(window1, 119, 351, 120, 80, G4P.SCROLLBARS_NONE);
   Add_Teacher.setOpaque(true);
   Add_Teacher.addEventHandler(this, "textarea1_change1");
   window1.loop();
@@ -76,6 +70,5 @@ public void createGUI(){
 GWindow window1;
 GSlider slider1; 
 GButton button1; 
-GImageButton imgButton1; 
 GLabel label1; 
 GTextArea Add_Teacher; 
