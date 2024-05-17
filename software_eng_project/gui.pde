@@ -20,17 +20,20 @@ synchronized public void win_draw1(PApplet appc, GWinData data) { //_CODE_:windo
 
 public void slider1_change1(GSlider source, GEvent event) { //_CODE_:slider1:391765:
   button1.moveTo(150, slider1.getValueF());
-  println("slider1 - GSlider >> GEvent." + event + " @ " + millis());
+  //println("slider1 - GSlider >> GEvent." + event + " @ " + millis());
   
 } //_CODE_:slider1:391765:
 
 public void button1_click1(GButton source, GEvent event) { //_CODE_:button1:902465:
-  println("button1 - GButton >> GEvent." + event + " @ " + millis());
+  //println("button1 - GButton >> GEvent." + event + " @ " + millis());
+  //println("stuff is being typed");
+  String data = Add_Teacher.getText();
+  //println(data);
+  addTeacherData(data);
 } //_CODE_:button1:902465:
 
 public void textarea1_change1(GTextArea source, GEvent event) { //_CODE_:Add_Teacher:534649:
-  println("Add_Teacher - GTextArea >> GEvent." + event + " @ " + millis());
-  addTeacherData(Add_Teacher.getText());
+  
 } //_CODE_:Add_Teacher:534649:
 
 

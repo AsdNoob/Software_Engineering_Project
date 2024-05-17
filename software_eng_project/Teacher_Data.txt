@@ -1,3 +1,4 @@
-John Doe * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet odio at felis congue, nec dapibus mauris rhoncus. * 4.2 * History * Time Traveler * Proficient in navigating historical eras through time travel * 7
-Emily Smith * Ut porttitor malesuada est, at venenatis lorem. * 3.8 * Science * Biochemist * Expertise in molecular biology and biochemical processes * 9
-David Brown * Nulla facilisi. Donec quis sapien quam. * 4.7 * Literature * Linguist * Fluent in multiple languages, specializing in literary analysis * 6
+John Doe * Lorem  * 4.2 * History * Time Traveler * Proficient in navigating historical eras through time travel * 7 
+Emily Smith * Ut  * 3.8 * Science * Biochemist * Expertise in molecular biology and biochemical processes * 9 
+David Brown * Nulla * 4.7 * Literature * Linguist * Fluent in multiple languages, specializing in literary analysis * 6
+Schattman * TEACHER DESCRIPTION  * 5 * Subject * Power name * Power description * 10

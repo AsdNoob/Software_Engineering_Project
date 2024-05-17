@@ -53,7 +53,9 @@ class Teacher {
     return result;
   }
   
-  void ann_Result (Teacher other) {
+  void describeMe() {
+    
+    println(this.name, this.rating, this.power, this.description, this.pow_lvl, this.pow_desc, this.subject);
     
   }
 }
